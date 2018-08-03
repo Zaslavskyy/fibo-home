@@ -1,4 +1,4 @@
-const n = parseFloat(prompt('Enter number in sequence'));
+const n = parseInt(prompt('Enter number in sequence'));
 function fib(n) {
   if (n < 2){
     return n;
@@ -12,7 +12,7 @@ alert( fib(n) );
 
 
 //work
-//const num = parseFloat(prompt('Enter number in sequence'));
+//const num = parseInt(prompt('Enter number in sequence'));
 //function fib(num){
 //  let arr = [0, 1];
 //  for (let i = 2; i < num + 1; i++){
@@ -25,7 +25,7 @@ alert( fib(n) );
 
 
 //not work
-//const num = parseFloat(prompt('Enter number in sequence'));
+//const num = parseInt(prompt('Enter number in sequence'));
 //function fib(num) {
 //  const pre = 1,
 //    prePre = 1;
